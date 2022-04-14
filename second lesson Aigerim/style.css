@@ -1,0 +1,85 @@
+body{
+    /*внешний отступ*/
+    margin: 0;
+    /*внутренний отступ*/
+    padding: 0;
+}
+header{
+width: 100%;
+/*ширина*/
+height: 300px;
+/* background-color: crimson; */
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+/* обращение к id через решетку и название */
+#logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: cadetblue;
+    margin-top: 40px;
+}
+ul{
+    /* убирает маркер */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+li{
+    /* размер шрифта */
+    font-size: 24px;
+    /* стиль шрифта */
+    font-style: italic;
+    color: white;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: chartreuse;
+    margin-left: 30px;
+}
+p{  font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+    color: blue;
+    margin-left: 40px;
+}
+section{
+  width: 100%;
+  background-color: rgb(red, green, blue);  
+  height: 400px;
+  display: flex;
+}
+#section_first{
+    display: block;
+    width: 40%;
+    margin-left: 20%;
+}
+#section_first p{
+
+    color:darkred;
+    margin-left: 0;
+}
+#section_second{
+    width: 50%;
+}
+
+
